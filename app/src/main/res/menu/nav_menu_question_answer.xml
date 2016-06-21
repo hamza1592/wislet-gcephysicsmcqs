@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Jump to">
+        <menu>
+            <item
+                android:id="@+id/homeScreenMenuItem"
+                android:icon="@mipmap/ic_keyboard_up_arrow"
+                android:title="Home" />
+            <item
+                android:id="@+id/catSelectionScreenMenuItem"
+                android:title="Category Selection"
+                android:icon="@mipmap/ic_keyboard_up_arrow"/>
+        </menu>
+    </item>
+</menu>

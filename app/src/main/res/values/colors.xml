@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141415</color>
+    <color name="colorPrimaryDark">#050505</color>
+    <color name="colorAccent">#146774</color>
+    <color name="colorAccentLight">#208999</color>
+    <color name="topicalCategoryDesc">#999999</color>
+    <color name="topicalCategoryName">#222222</color>
+    <color name="correctAnswer">#71b76b</color>
+    <color name="wrongAnswer">#f72b26</color>
+    <color name="answerText">#121212</color>
+    <color name="draggableExplanation">#80121212</color>
+    <color name="navDrawerBackground">#4c121212</color>
+    <color name="lightWhite">#daf1efef</color>
+    <color name="answerTestSelected">#4b4b4b</color>
+</resources>

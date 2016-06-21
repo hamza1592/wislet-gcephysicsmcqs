@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/timer_switch"
+        android:icon="@mipmap/ic_note"
+        android:title="Timer"
+        android:actionLayout="@layout/menu_switch"/>
+    <item android:id="@+id/explanation_switch"
+        android:title="Explanation"
+        android:icon="@mipmap/ic_note"
+        android:actionLayout="@layout/menu_switch"/>
+</menu>

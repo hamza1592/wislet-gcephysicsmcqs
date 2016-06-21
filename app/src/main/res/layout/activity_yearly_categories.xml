@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/recycler_view_margins"
+    android:paddingLeft="@dimen/recycler_view_margins"
+    android:paddingRight="@dimen/recycler_view_margins"
+    android:paddingTop="@dimen/recycler_view_margins"
+    tools:context="wislet.gcephysicsmcqs.YearlyCategories"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/yearlyCategoriesRecycler">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

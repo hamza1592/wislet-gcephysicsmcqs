@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:id="@+id/navHomeButton">
+
+        <ImageView
+            android:id="@+id/homeButtonIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/ic_home"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/lightWhite"
+            android:textSize="20sp"
+            android:id="@+id/homeButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/homeButtonIcon"
+            android:layout_toEndOf="@+id/homeButtonIcon"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="Home"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:id="@+id/navCategoryButton">
+
+        <ImageView
+            android:id="@+id/categoryButtonIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/ic_note"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/lightWhite"
+            android:textSize="20sp"
+            android:id="@+id/categoryButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Categories"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/categoryButtonIcon"
+            android:layout_toEndOf="@+id/categoryButtonIcon"/>
+
+    </RelativeLayout>
+</LinearLayout>

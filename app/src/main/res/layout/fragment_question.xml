@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="8"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:context="wislet.gcephysicsmcqs.QuestionAnswer$PlaceholderFragment"
+        android:layout_weight="8">
+
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temp question"
+            android:textSize="@dimen/question_text_size"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionImage"
+            android:layout_below="@+id/questionText"
+            />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:id="@+id/questionProgressBar"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_above="@+id/questionProgressBarText"
+            />
+        <TextView
+            android:layout_above="@+id/questionTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionProgressBarText"
+            android:textColor="@color/colorAccent"
+            android:text="@string/questionCounter"
+            android:gravity="center"
+            />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:layout_above="@+id/questionTimerText"
+            android:id="@+id/questionTimer"
+            android:visibility="invisible"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionTimerText"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorAccent"
+            android:text="@string/timeCounter"
+            android:gravity="center"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</LinearLayout>

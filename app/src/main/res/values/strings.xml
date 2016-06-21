@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GCE Physics MCQs</string>
+    <string name="title_activity_question_answer">QuestionAnswer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_question_answer_yearly">QuestionAnswerYearly</string>
+    <string name="questionCounter">Question %1$d of %2$d </string>
+    <string name="timeCounter">%1$d second(s) remaining</string>
+    <string name="questionTextForRecyclerView">Question %1$d</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="correct_answer">Your answer is correct! Would you like to see the explanation to see if your thought process was correct as well?</string>
+    <string name="wrong_answer">Oops, your answer is incorrect! You might want to look at the explanation and see where you went wrong.</string>
+    <string name="explanation_card_btn">See explanation</string>
+    <string name="next_question_btn">Next question</string>
+    <string name="tap_explanation">Tap to see explanation</string>
+    <string name="report_result_icon">Shows if the answer was correct or false</string>
+</resources>
