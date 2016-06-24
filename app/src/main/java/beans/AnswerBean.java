@@ -17,11 +17,11 @@ public class AnswerBean {
         this.isCorrectAnswer = isCorrectAnswer;
     }
 
-    int answerCode;
-    String answer,imagePath;
-    boolean isCorrectAnswer;
-    Button button;
-    ImageButton imageButton;
+    private int answerCode;
+    private String answer,imagePath;
+    private boolean isCorrectAnswer;
+    private Button button;
+    private ImageButton imageButton;
 
     public int getAnswerCode() {
         return answerCode;

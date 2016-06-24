@@ -6,10 +6,10 @@ import android.view.View;
  * Created by Hamza on 5/15/2016.
  */
 public class YearlyCategoryBean {
-    String yearCode;
-    String yearDesc;
-    String yearDetail;
-    View.OnClickListener onClickListener;
+    private String yearCode;
+    private String yearDesc;
+    private String yearDetail;
+    private View.OnClickListener onClickListener;
 
     public YearlyCategoryBean() {
     }

@@ -16,11 +16,11 @@ public class QuestionBean {
         this.questionCode = questionCode;
     }
 
-    int questionCode;
-    String question,imagePath;
-    Button button;
-    ImageButton imageButton;
-    String answerExplanation;
+    private int questionCode;
+    private String question,imagePath;
+    private Button button;
+    private ImageButton imageButton;
+    private String answerExplanation;
 
 
     public String getAnswerExplanation() {

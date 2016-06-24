@@ -7,10 +7,10 @@ import android.view.View;
  * Created by Hamza on 4/19/2016.
  */
 public class TopicalCategoryBean {
-    String categoryCode;
-    String categoryDesc;
-    String categoryDetail;
-    View.OnClickListener onClickListener;
+    private String categoryCode;
+    private String categoryDesc;
+    private String categoryDetail;
+    private View.OnClickListener onClickListener;
 
 
 

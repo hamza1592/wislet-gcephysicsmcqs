@@ -11,10 +11,10 @@ import java.util.ArrayList;
  * Created by Hamza on 5/3/2016.
  */
 public class QuestionAnswerBean implements Parcelable{
-    QuestionBean questionBean;
-    AnswerBean answerBean1,answerBean2,answerBean3,answerBean4;
-    boolean answered;
-    AnswerBean selectedAnswer;
+    private QuestionBean questionBean;
+    private AnswerBean answerBean1,answerBean2,answerBean3,answerBean4;
+    private boolean answered;
+    private AnswerBean selectedAnswer;
 
     public boolean isAnswered() {
         return answered;
